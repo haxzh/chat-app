@@ -5,7 +5,7 @@ import ChatArea from './homecomponents/Chat'
 import { io } from 'socket.io-client';
 import { useEffect, useState } from "react";
 
-const socket = io('https://chat-app-server-trai.onrender.com');
+const socket = io('https://chat-app-server-trai.onrender.com/');
 
 function Home(){
     const { selectedChat, user } = useSelector(state => state.userReducer);
