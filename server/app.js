@@ -8,7 +8,7 @@ const messageController = require('./controllers/messageController');
 
 // ✅ Allowed Origins
 const allowedOrigins = [
-  "http://localhost:3000", 
+//   "http://localhost:3000", 
   "https://chat-app-client-p3jv.onrender.com"   // <- tumhara deployed client
 ];
 
