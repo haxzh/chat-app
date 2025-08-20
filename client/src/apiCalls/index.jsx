@@ -8,7 +8,7 @@
 
 import axios from "axios";
 
-export const url = "https://quick-chat-app-rql3.onrender.com";
+export const url = "https://chat-app-server-trai.onrender.com";
 
 export const axiosInstance = axios.create({
     headers: {
